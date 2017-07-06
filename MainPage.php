@@ -664,31 +664,30 @@
 
     <!-- Portfolio Modals -->
 
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                              
+   <div class="modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2">
+						<div class="modal-body">
+							<!-- Project Details Go Here -->
+						  
 <form name="create-product" action="createprod.php" method="POST">
 <fieldset class="textt">
-    <legend><h2>Create Product</h2></legend>
+<legend><h2>Create Product</h2></legend>
 <b>Product Name</b> 
-	<input type="text" name="name" placeholder="Enter Product Name"></br>
+<input type="text" name="name" placeholder="Enter Product Name"></br>
 
 <b>Product Code</b>  
-	<input type="text" name="prodcode" placeholder="Enter Product code"></br>
-				    
+<input type="text" name="prodcode" placeholder="Enter Product code"></br>
+				
 <p><b>Product Family</b>
 <select name="family">
 <option value="">Select</option>
@@ -701,154 +700,163 @@
 
 <b>isActive</b>  <input type="checkbox" name="isActive"></br>
 </br>
-			    
-<b>Product Country</b>  
-	<input type="text" name="country" placeholder="Enter Product Country"></br>
 			
-		<b>Product State</b>  
-	<input type="text" name="state" placeholder="Enter Product State"></br>	
-			    
+<b>Product Country</b>  
+<input type="text" name="country" placeholder="Enter Product Country"></br>
+		
+	<b>Product State</b>  
+<input type="text" name="state" placeholder="Enter Product State"></br>	
+			
 <b>Description</b>  </br><br/>
 <textarea name="description" rows="5" cols="40"></textarea>
 </br></br>
-<input type="submit" value="Save"></t>
-<input type="reset" value="Reset">
 
+<div class="modal-footer">
+	
+	 <button class="btn btn-primary" type="submit"><span>Submit</span></button>
+	 <button class="btn btn-primary"  type="reset"><span>Reset</span></button>
+     
+	</div>
 </fieldset>
 
 </form>
+	
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                
-                                <form>
+<!-- Modal 2 -->
+<div class="modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2">
+						<div class="modal-body">
+							<!-- Project Details Go Here -->
+							
+							<form>
 <fieldset>
-    <legend><h2>Update Product</h2></legend>
-    <div>
+<legend><h2>Update Product</h2></legend>
+<div>
 <b>Product Code</b>
 
-  <input type="text" name="search" placeholder="Search.." align=right>
-<button class="button" type="submit"><span>Update</span></button>
+<input type="text" name="search" placeholder="Search.." align=right>
 
+<div class="modal-footer">
+	 <button class="btn btn-primary" type="submit"><span>Update</span></button>
 </fieldset>
 
 </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                
-                                <form>
+<!-- Modal 3 -->
+<div class="modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2">
+						<div class="modal-body">
+							<!-- Project Details Go Here -->
+							
+							<form>
 <fieldset>
-    <legend><h2>Delete Product</h2></legend>
-    <div>
+<legend><h2>Delete Product</h2></legend>
+<div>
 <b>Product ID</b>
 
-  <input type="text" id="s" name="search" placeholder="Search..">
+<input type="text" id="s" name="search" placeholder="Search..">
+<div class="modal-footer">
+ <button class="btn btn-primary"><span>Delete</span></button>
 
-<button class="button"><span>Delete</span></button>
+
 </fieldset>
 
 </form>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-    <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                
-                                <form name="search-prods" action="searchedProds.php" method="POST">
-
-
-
-                            <fieldset>
-
-                                <legend><h2>Search Product</h2></legend>
-
-                                <div>
-
-                                <b>Product ID</b>
+<!-- Modal 4 -->
+<div class="modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2">
+						<div class="modal-body">
+							<!-- Project Details Go Here -->
+							
+							<form name="search-prods" action="searchedProds.php" method="POST">
 
 
 
-                                <input type="text" name="search" placeholder="Search..."/>
+						<fieldset>
+
+							<legend><h2>Search Product</h2></legend>
+
+							<div>
+
+							<b>Product ID</b>
 
 
 
-                                <button type="submit" class="button"><span><b>Search</b></span></button>
-
-                            </fieldset>
+							<input type="text" name="search" placeholder="Search..."/>
 
 
+							<div class="modal-footer">
+							 <button class="btn btn-primary" type="submit"><span>Update</span></button>
 
-                        </form>
+						</fieldset>
 
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+					</form>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 
     <!-- Modal 5 -->
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
